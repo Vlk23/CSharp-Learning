@@ -8,11 +8,11 @@ namespace GenericsIntro
         static void Main(string[] args)
         {
             MyList<string> isimler = new MyList<string>();
-            isimler.Add("Engin");
+            isimler.Add("Volkan");
 
             Console.WriteLine(isimler.Length);
 
-            isimler.Add("Kerem");
+            isimler.Add("Ahmet");
 
             Console.WriteLine(isimler.Length);
 
@@ -20,8 +20,6 @@ namespace GenericsIntro
             {
                 Console.WriteLine(isim);
             }
-
-            Console.WriteLine("Hello World!");
 
         }
     }
